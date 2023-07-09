@@ -1,4 +1,5 @@
 # gocloud_youtube
+
 This project provides example on how to push/delete video files to/from YouTube using Google's Sample code provided on
 https://developers.google.com/youtube/v3/quickstart/python 
 https://github.com/youtube/api-samples
@@ -9,7 +10,7 @@ Prerequisite: Refer to the Python Quickstart section on
 https://developers.google.com/youtube/v3/quickstart/python
 
 
-
+**Upload Filie**
 Execute python file with the following arguments from the command line.
 
 python upload_video.py --file="{provide path to the video file}" \
@@ -20,6 +21,7 @@ python upload_video.py --file="{provide path to the video file}" \
                        --privacyStatus="private"
 
 
+**Delete File**
 To delete file from YouTube run this command and provide Youtube Video ID
 
 python delete.py --id {YouTube Video ID}
